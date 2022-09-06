@@ -1,4 +1,4 @@
-# Self-Supervised Reinforcement Learning with Knowledge Distillation
+# Self-Supervised Reinforcement Learning
 
 _Wenyuan Zhao_
 
