@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0 xvfb-run python3 src/train_kd.py \
+    --domain_name cartpole \
+    --task_name swingup \
+    --action_repeat 8 \
+    --mode train \
+    --use_inv \
+    --use_kd \
+    --num_shared_layers 8 \
+    --seed 1 \
+    --work_dir logs/cartpole_swingup/inv/1 \
+    --save_model \
+    --train_steps 300000 \
+    --save_freq 100000 \
+    --pad_checkpoint 500k \
