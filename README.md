@@ -17,21 +17,6 @@ This repository provides a PyTorch implementation of Reinforcement Learning (RL)
 <img src="images/kd.png" style="zoom:30%;" />
 
 
-## Citation
-
-If you find our work useful in your research, please consider citing this repository as follows:
-
-```
-@misc{pytorch_ssrl_kd,
-    author = {Zhao, Wenyuan},
-    title = {PyTorch Implementation of Self-supervised Reinforcement Learning with Knowledge Distillation},
-    year = {2022},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished = {\url{https://github.com/wyzhao030/SSRL-KD-pytorch}},
-}
-```
-
 ## Setup
 
 We assume that you have access to a GPU with CUDA >=9.2 support. All dependencies can then be installed with the following commands:
@@ -168,3 +153,19 @@ CUDA_VISIBLE_DEVICES=0 src/eval_kd.py \
 ```
 
 The output is similar with what you get from self-supervised learning.
+
+
+## Citation
+
+If you find our work useful in your research, please consider citing this repository as follows:
+
+```
+@misc{pytorch_ssrl_kd,
+    author = {Zhao, Wenyuan},
+    title = {PyTorch Implementation of Self-supervised Reinforcement Learning with Knowledge Distillation},
+    year = {2022},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/wyzhao030/SSRL-KD-pytorch}},
+}
+```
