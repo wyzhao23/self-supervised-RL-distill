@@ -14,7 +14,7 @@ This repository provides a PyTorch implementation of Reinforcement Learning (RL)
 
 **Self-Supervised Learning & Knowledge Distillation**
 
-<img src="images/kd.png" style="zoom:32%;" />
+<img src="images/kd.png" style="zoom:20%;" />
 
 
 ## Citation
