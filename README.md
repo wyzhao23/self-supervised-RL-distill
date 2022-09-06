@@ -22,13 +22,13 @@ This repository provides a PyTorch implementation of Reinforcement Learning (RL)
 If you find our work useful in your research, please consider citing this repository as follows:
 
 ```
-@misc{pytorch_minimal_ppo,
+@misc{pytorch_ssrl_kd,
     author = {Zhao, Wenyuan},
     title = {PyTorch Implementation of Self-supervised Reinforcement Learning with Knowledge Distillation},
     year = {2022},
     publisher = {GitHub},
     journal = {GitHub repository},
-    howpublished = {\url{https://github.com/nikhilbarhate99/PPO-PyTorch}},
+    howpublished = {\url{https://github.com/wyzhao030/SSRL-KD-pytorch}},
 }
 ```
 
@@ -167,4 +167,4 @@ CUDA_VISIBLE_DEVICES=0 src/eval_kd.py \
     --pad_checkpoint 100k
 ```
 
-The output is similar to what you get from self-supervised learning.
+The output is similar with what you get from self-supervised learning.
