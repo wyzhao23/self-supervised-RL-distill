@@ -1,4 +1,4 @@
-# Self-Supervised Reinforcement Learning
+# Self-Supervised Reinforcement Learning with Distillation
 
 _Wenyuan Zhao_
 
@@ -169,3 +169,5 @@ If you find our work useful in your research, please consider citing this reposi
     howpublished = {\url{https://github.com/wyzhao030/SSRL-KD-pytorch}},
 }
 ```
+
+Our implementation is partially based on [this repository](https://github.com/nicklashansen/policy-adaptation-during-deployment), the original DeepMind Control suite is available [here](https://github.com/deepmind/dm_control) and the gym wrapper for it is available [here](https://github.com/denisyarats/dmc2gym).
